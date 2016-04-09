@@ -1,36 +1,55 @@
-
 body {
   margin: 0;
 }
+main {
+  margin: 0px;
+  padding-left: 15px;
+}
 
+/*HEADER CSS*/
 header {
   background-color: rgb(241, 99, 79);
   padding: 67px;
+  margin: 0px;
 }
-
-header > h1 {
+header h1 {
   color: white;
   font-size: 36px;
   font-weight: 800;
   margin: 0 0 40px 0;
   text-align: center;
 }
-
-ul {
+header ul {
   margin: 0px;
   padding: 0px;
   text-align: center;
   list-style: none;
 }
-
-ul > li {
-    float: left;
-    margin: 0 5px;
+header ul > li {
+    display: inline;
+    margin: 0 10px;
 }
-
-li > a {
+header li > a {
     text-decoration: none;
     color: white;
     font-weight: 400;
     font-size: 18px;
+}
+
+/**BODY CSS**/
+ h2 {
+  margin: 20px 0 20px 0;
+  color: 6694FF;
+}
+
+#about-image {
+  width: 90%;
+  margin-bottom: 10px;
+}
+div h3 {
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    color: aquamarine;
+    font-size: 1.5em;
 }
